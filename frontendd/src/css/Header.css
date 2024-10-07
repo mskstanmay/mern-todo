@@ -1,0 +1,33 @@
+/* src/components/Header.css */
+header {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically center */
+    padding: 1em; /* Padding around the header */
+  }
+  
+  h1 {
+    margin: 0; /* Remove default margin */
+    margin-right: 1em; /* Add a small right margin to separate from buttons */
+  }
+  
+  nav {
+    display: flex; /* Use flexbox for navigation */
+    margin-left: auto; /* Push navigation to the right */
+    justify-content: space-between;
+}
+  
+  button {
+    margin: 0 0.5em; /* Space between buttons */
+    padding: 0.5em 1em; /* Button padding */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: hsl(233deg 36% 38%); /* Background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  button:hover {
+    background-color: hsl(218deg 50% 91%); /* Change color on hover */
+  }
+  

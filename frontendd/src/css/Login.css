@@ -1,0 +1,82 @@
+
+/* Login.css */
+
+.screen-1 {
+  font-family: 'Poppins';
+  background: hsl(213deg 85% 97%);
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align content */
+  border-radius: 30px;
+  box-shadow: 0 0 2em hsl(231deg 62% 94%);
+  gap: 2em;
+}
+
+.logo {
+  width: 100%;
+  margin-top: -3em;
+}
+
+.email,
+.password {
+  background: hsl(0deg 0% 100%);
+  box-shadow: 0 0 2em hsl(231deg 62% 94%);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em; /* Adjusted gap between email and password sections */
+  border-radius: 20px;
+  color: hsl(0deg 0% 30%);
+  margin-top: -3em;
+}
+
+.email input,
+.password input {
+  outline: none;
+  border: none;
+}
+
+.email input::placeholder,
+.password input::placeholder {
+  color: hsl(0deg 0% 0%);
+  font-size: 0.9em;
+}
+
+.sec-2 ion-icon {
+  color: hsl(0deg 0% 30%);
+  margin-bottom: -0.2em;
+}
+
+.password .show-hide {
+  margin-right: -5em;
+}
+
+.login {
+  padding: 1em;
+  background: hsl(233deg 36% 38%);
+  color: hsl(0 0 100);
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  font-size: 0.7em;
+  color: hsl(0deg 0% 37%);
+  gap: 14em;
+  padding-bottom: 10em;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo-svg {
+  width: 100px; /* Example width */
+  height: 139px; /* Example height */
+  padding: 30px; /* Adjust padding as needed */
+  border-radius: 50%; /* Make the border circle-shaped */
+  border: 1.5px double #333; /* Example dotted border */
+}
