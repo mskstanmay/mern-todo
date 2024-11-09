@@ -33,7 +33,8 @@ This is a full-stack ToDo List application built using the MERN stack (MongoDB, 
 | [React Router](https://www.npmjs.com/package/react-router-dom) | Declarative routing for React apps                                                                                          | [![NPM Badge](https://img.shields.io/npm/dt/react-router-dom.svg?maxAge=3600)](https://www.npmjs.com/package/react-router-dom) |
 | [Bcrypt](https://www.npmjs.com/package/bcrypt)        | A library to help you hash passwords                                                                                        | [![NPM Badge](https://img.shields.io/npm/dt/bcrypt.svg?maxAge=3600)](https://www.npmjs.com/package/bcrypt)       |
 | [Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) | A library to sign, verify, and decode JSON Web Tokens                                                                       | [![NPM Badge](https://img.shields.io/npm/dt/jsonwebtoken.svg?maxAge=3600)](https://www.npmjs.com/package/jsonwebtoken) |
-
+| [react-chartjs-2](https://www.npmjs.com/package/react-chartjs-2) | React wrapper for Chart.js 2 | ![NPM Badge](https://img.shields.io/npm/dt/react-chartjs-2.svg?maxAge=3600) |
+| [chart.js](https://www.npmjs.com/package/chart.js) | Simple yet flexible JavaScript charting library | ![NPM Badge](https://img.shields.io/npm/dt/chart.js.svg?maxAge=3600) |
 ## Project Structure
 
 The project is divided into two main folders: `frontend` and `backend`.

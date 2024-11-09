@@ -1,0 +1,82 @@
+
+/* The part mentioned below is the css for ProgressPercentage created in the taks page */
+.chart-container {
+    position: relative;
+    margin-left: 5%;
+    width: 300px; /* Adjust based on your chart size */
+    height: 300px; /* Adjust based on your chart size */
+  }
+  
+  .percentage-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Font size for the percentage */
+    font-weight: bold;
+    color: #333; /* Color for the percentage text */
+  }
+
+/* The part mentioned below is the css for priorityTable created in the taks page */
+
+.priority-table {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.priority-table h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.priority-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.priority-label {
+  width: 80px;
+  font-size: 18px;
+}
+
+.priority-percentage {
+  width: 50px;
+  font-size: 16px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.priority-bar-container {
+  flex: 1;
+  background-color: #f0f0f0;
+  height: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.priority-bar {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.priority-bar.high {
+  background-color: #4caf50; /* Green */
+}
+
+.priority-bar.medium {
+  background-color: #f44336; /* Red */
+}
+
+.priority-bar.low {
+  background-color: #8bc34a; /* Light Green */
+}
+
+.priority-count {
+  width: 30px;
+  font-size: 16px;
+  text-align: right;
+  margin-left: 10px;
+}

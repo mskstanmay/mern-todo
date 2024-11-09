@@ -32,7 +32,7 @@ router.post("/", async (req, res) => {
   });
   try {
     await newTodo.save();
-    console.log(`Pushed value into database: ${newTodo.toJSON()}`);
+    console.log(`TODO ROUTES: Pushed value into database: ${JSON.stringify(newTodo)}`);
     return res
       .status(201)
       .json({ message: "ToDo created successfully", todo: newTodo });
@@ -45,7 +45,12 @@ router.post("/", async (req, res) => {
 });
 
 // Fetch all ToDos for a user
-router.get("/:userId", async (req, res) => {
+
+router.get("/",async (req,res) => {
+  res.send("hi");
+  
+})
+router.get(`/:userId`, async (req, res) => {
   const { userId } = req.params;
   try {
     const todos = await Todo.find({ userId });

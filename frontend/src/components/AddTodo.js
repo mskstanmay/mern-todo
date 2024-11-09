@@ -72,14 +72,14 @@ const AddTodo = () => {
       </div>
 
       <div>
-        <label>Priority</label>
+        <label>Priority [1-3]</label>
         <input
           type="number"
           value={priority}
           onChange={(e) => setPriority(e.target.value)}
           min="1"
-          max="5"
-          placeholder="Priority (1-5)"
+          max="3"
+          placeholder="Priority (1-3)"
         />
       </div>
 
@@ -93,14 +93,14 @@ const AddTodo = () => {
         />
       </div>
 
-      <div>
+       <div>
         <label>Completed</label>
         <input
           type="checkbox"
           checked={completed}
           onChange={(e) => setCompleted(e.target.checked)}
         />
-      </div>
+      </div> 
 
       <button type="submit">Add Todo</button>
     </form>
